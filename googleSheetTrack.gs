@@ -48,7 +48,7 @@ function getIds() {
   var ids = [];
   
   for (i = 1; i < allData.length; i++) {
-    ids.push([i, allData[i][id_col - 1]]); // ids are in column 1
+    ids.push([i, allData[i][id_col - 1]]);
   }
   return ids;
 }
